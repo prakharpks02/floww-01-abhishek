@@ -3,7 +3,35 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
-.card{
-    align-items: center;
+
+.title{
+    margin-left: 2em;
+}
+.scrollMenu{
+    background-color: rgb(0, 136, 255);
+    overflow: auto;
+    white-space: nowrap;
+   position: sticky;
+   top: 0  ;
+}
+.scrollMenu a{
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px;
+        text-decoration: none;
+       
+
+}
+.scrollMenu a:hover{
+background-color: darkblue;
+
+}
+.scrollMenu  a.active{
+    background-color: red;
+}
+
+.card-body{
+    text-align: center;
     justify-content: center;
 }
