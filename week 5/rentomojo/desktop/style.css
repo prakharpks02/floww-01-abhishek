@@ -16,7 +16,7 @@
 
 
 height: 100%;
-position: fixed;
+position: sticky;
 }
 .card{
   display: flex;
