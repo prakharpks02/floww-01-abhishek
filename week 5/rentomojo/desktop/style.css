@@ -12,7 +12,12 @@
 .flex-column{
     margin-top: 2em;
 }
+.sidebar{
 
+
+height: 100%;
+position: fixed;
+}
 .card{
   display: flex;
   float: left;
@@ -21,6 +26,41 @@
 padding-right: 16em;
 border-radius: 1em;
  
+}
+
+.card2{
+    display: flex;
+    float: left;
+    margin-left: 30em;
+    margin-top: -10em;
+  padding-right: 16em;
+  border-radius: 1em;
+  border: 1px solid wheat;
+  margin-bottom: 10em;
+   
+
+}
+
+.card3{
+    display: flex;
+    float: left;
+    margin-left: 30em;
+    margin-top: -2em;
+  padding-right: 16em;
+  border-radius: 1em;
+  border: 1px solid wheat;
+  margin-bottom: 10em;
+}
+
+.card4{
+    display: flex;
+    float: left;
+    margin-left: 30em;
+    margin-top: 2em;
+  padding-right: 16em;
+  border-radius: 1em;
+  border: 1px solid wheat;
+  margin-bottom: 10em;
 }
 .btn-group{
     display: flex;
