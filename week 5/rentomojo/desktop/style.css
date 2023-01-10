@@ -6,23 +6,63 @@
     padding-right: 2em;
     padding-top: 1em;
 }
+.navigationBar{
+  
+  position: fixed;
+  width: 100%;
+ 
+}
+.nav-link{
+  color: grey;
+}
+
 #cart{
     margin-top: 1em;
 }
 .flex-column{
     margin-top: 2em;
 }
+
+.dropdown-menu{
+  
+  
+  margin-top: 2em;
+   left: 130px;
+ }
+
 .sidebar{
+  margin-top: 6em;
 height: 100%;
-position: sticky;
+position: fixed;
+box-shadow: 30px;
+
+}
+
+.sidebar a {
+  border: 2px solid transparent;
+ margin: 2px;
+ border-radius: 4px;
+}
+.sidebar a:hover{
+  background-color: rgb(194, 246, 246);
+  
+}
+.cards{
+  height: 100%;
+  overflow-y: auto;
+  margin-bottom: 10em;
+
+  
+ 
 }
 .card{
   display: flex;
   float: left;
   margin-left: 30em;
-  margin-top: -25em;
+  margin: 10em 30 20em 0;
 padding-right: 16em;
 border-radius: 1em;
+visibility: hidden;
  
 }
 
@@ -35,6 +75,7 @@ border-radius: 1em;
   border-radius: 1em;
   border: 1px solid wheat;
   margin-bottom: 10em;
+  visibility: hidden;
    
 
 }
@@ -59,6 +100,18 @@ border-radius: 1em;
   border-radius: 1em;
   border: 1px solid wheat;
   margin-bottom: 10em;
+}
+.card5{
+
+  display: flex;
+  float: left;
+  margin-left: 30em;
+  margin-top: 2em;
+padding-right: 16em;
+border-radius: 1em;
+border: 1px solid wheat;
+margin-bottom: 10em;
+
 }
 .btn-group{
     display: flex;
