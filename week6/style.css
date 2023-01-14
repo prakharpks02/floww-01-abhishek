@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.image {
+    height: 3em;
+    width: 12em;
+    margin: 3em 0 0 10em;
+}
+
+.date {
+    display: block;
+    float: right;
+    margin: 5em 15em 0 0;
+}
+
+.title {
+    font-size: 60px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.secondTitle {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.billed {
+    margin-top: 10em;
+    margin-left: 14em;
+    display: block;
+}
+
+.from {
+    display: inline;
+    float: right;
+    margin-top: -6em;
+    margin-right: 12em;
+}
+
+table {
+    margin: 4em 4em 2em 15em;
+    background-color: rgb(233, 213, 252);
+    padding: 2em;
+}
+
+.data {
+    padding-right: 15em;
+}
+
+table th {
+
+    font-weight: 800;
+    font-size: large;
+    border-bottom: 1px solid rgb(169, 102, 232);
+
+
+
+}
+
+table td {
+    border: 1px solid rgb(169, 102, 232);
+    border-bottom: none;
+    border-left: none;
+    border-top: none;
+}
+
+.topcard {
+    padding-right: 8em;
+}
+
+.card1 {
+    margin-left: 45em;
+    margin-top: -2em;
+}
+
+.card1 th {
+    border: none;
+
+
+}
+
+.lastNote {
+    font-size: large;
+    margin-top: 4em;
+    margin-left: 20em;
+
+
+}
+
+.card2 {
+    display: flex;
+    float: right;
+    margin-top: -4em;
+    margin-right: 10em;
+}
+
+.card2 th {
+    padding: 4em;
+
+}
+
+.card2 td {
+    border: none;
+
+}
