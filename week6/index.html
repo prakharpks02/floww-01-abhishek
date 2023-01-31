@@ -1,38 +1,40 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Floww Invoice</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-</head>
 
-<body>
-    <!--Logo-->
-    <img src="images/Screenshot (122).png" alt="logo" class="image">
-    <div class="date">
-        <b>Date:</b> 2 Jan, 2023
-    </div>
+    <title>Invoice Floww</title>
+  </head>
+  <body>
+   <img src="../week6/images/Screenshot (122).png" alt="" class="img text-left">
+   <p class="date text-right"><b>Date:</b>2 Jan,2023</p>
+   <div class="heading text-center">
+    <h1>Invoice</h1>
+    <h5>Invoice No IN/01/2022-2023</h5>
+   </div>
 
-    <h1 class="title">INVOICE</h1>
-    <h4 class="secondTitle">Invoice No. IN/01/2022-23</h4>
 
-    <div class="billed">
-        <p> <b>Billed to:</b> </br>
-            Flytech Technologies LLP </br>
-            A-103,Shalimar Towers </br>
-            Kaushambhi, Ghaziabad </br>
-            orgoeast@gmail.com </br>
-            GSTIN- 099AA3ASC63HJQ2
-        </p>
+   <div class="billed text-left">
+    <p> <b class="bold">Billed to:</b> </br>
+        Flytech Technologies LLP </br>
+        A-103,Shalimar Towers </br>
+        Kaushambhi, Ghaziabad </br>
+        orgoeast@gmail.com </br>
+        GSTIN- 099AA3ASC63HJQ2
+    </p>
 
-    </div>
+</div>
 
-    <div class="from">
+
+<div class="from text-right">
         <p>
-            <b>From:</b> </br>
+            <b class="bold">From:</b> </br>
             Floww APIs Pvt Ltd </br>
             B-2, Imperial Offices </br>
             Wakad, Baner </br>
@@ -45,86 +47,79 @@
 
     </div>
 
-    <!--Table-->
-    <table>
-        <th class="data">Item</th>
-        <th class="data">Quantity</th>
-        <th class="data">Price</th>
-        <th>Amount</th>
 
+    <!--Table starts from here-->
+    <table class="table">
+      <thead class=" table-info">
+        <tr class="tableTitles">
+          <th scope="col">Item</th>
+          <th scope="col">Quantity</th>
+          <th scope="col">Price</th>
+          <th scope="col">Amount</th>
+        </tr>
+      </thead>
+      <tbody>
         <tr>
-            <td border="1">Notification Intelligence</td>
-            <td>1</td>
-            <td>₹25,000</td>
-            <td>₹25,000</td>
+          <th scope="row">Notification Intelligence<p></br>Details: 200 order status update| </br> Whitelabled Tracking Page & Whitelabled </br> feedback page included | Opencart Integration | Whatsapp & Email Channels </p></th>
+          <td>1</td>
+          <td>₹25,000</td>
+          <td>₹25,000</td>
+        </tr>
+       
+      </tbody>
+    </table>
+
+    <!--Cards starts from here-->
+
+    <div class="card" style="width: 18rem;">
+      <table>
+        <th class="topcard">Total</th>
+        <th>₹25,000</th>
+        <tr>
+            <th class="topcard">GST(18%)</th>
+            <th>₹4,500</th>
         </tr>
         <tr>
-
-        </tr>
-
-        <tr>
-            <td>Details : 2000 order status update | </br>
-                Whitelabled Tracking Page & Whitelabled <br>
-                feedback page inccluded | Opencart </br>
-                Integration | Whatsapp & Email channels</td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <th class="topcard">Grand Total</th>
+            <th>₹29,500</th>
         </tr>
     </table>
 
-    <div class="card1">
-        <table>
-            <th class="topcard">Total</th>
-            <th>₹25,000</th>
-            <tr>
-                <th class="topcard">GST(18%)</th>
-                <th>₹4,500</th>
-            </tr>
-            <tr>
-                <th class="topcard">Grand Total</th>
-                <th>₹29,500</th>
-            </tr>
-        </table>
-
     </div>
+
     <div class="lastNote">
-        <p><b>Payment Method:</b> Net Banking</p>
-        <p><b>Note:</b> Thankyou for choosing us</p>
+      <p><b>Payment Method:</b> Net Banking</p>
+      <p><b>Note:</b> Thankyou for choosing us</p>
 
+  </div>
+
+  <div class="card lastcard" style="width: 18rem;">
+    <div class="first">
+      <p class="parent">Account No.</p>
+      <p class="child">50200076234320</p>
+    </div>
+  
+    <div class="second">
+      <p class="parent">IFSC Code</p>
+      <p class="child">HDFC0004172</p>
     </div>
 
-    <!--Second card starts from here-->
-    <div class="card2">
-        <table>
-            <tr>
-                <td><b>Accont No.</b></td>
+    <div class="third">
+      <p class="parent">Account type</p>
+      <p class="child">Current</p>
+    </div>
 
-            </tr>
-            <tr>
-                <td>50200076234320</td>
-            </tr>
+  </div>
 
-            <tr>
-                <td><b>IFSC Code</b></td>
+       
+      </div>
+    </div>
+    
 
-            </tr>
-            <tr>
-                <td>HDFC0004172</td>
-            </tr>
-            </tr>
-
-            <tr>
-                <td><b>Account Type</b></td>
-
-            </tr>
-            <tr>
-                <td>Current</td>
-            </tr>
-
-        </table>
-
-
-</body>
-
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>
